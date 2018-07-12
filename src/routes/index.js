@@ -9,5 +9,4 @@ const routes = [
   }
 ]
 
-console.log(routes,'routes')
 module.exports = routes;
