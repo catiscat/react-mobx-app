@@ -1,0 +1,6 @@
+query LineAgeList($app_id: ID!, $page_id: ID) {
+  LineAgeList(app_id: $app_id, page_id: $page_id) {
+    id
+    name
+  }
+}

@@ -1,0 +1,6 @@
+query ElementalList($app_id: ID!, $project_id: ID!) {
+  ElementalList(app_id: $app_id, project_id: $project_id) {
+    id
+    name
+  }
+}
